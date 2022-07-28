@@ -1,0 +1,133 @@
+.hero{
+    background-image: url('./images/mobile/image-header.jpg');
+    background-size: cover;
+    background-position-y: 0px;
+}
+.hamburger{
+    display: block;
+}
+header ul{
+    display: none;
+}
+.white, .cup .white{
+    padding: 0;
+    padding: 30px 0;
+    text-align: center;
+    height: 400px;
+}
+.cup .white h2{
+    padding: 0 20px;
+}
+.white p, .cup .white p{
+    padding: 0;
+    padding: 10px 20px;
+}
+.egg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.yellow-egg{
+    width: 100%;
+}
+.yellow-egg img{
+    width: 100%;
+    height: 300px;
+}
+.cup{
+    display: flex;
+    flex-direction: column;
+}
+.cup .white{
+    order: 1;
+}
+.cup .pink-cup{
+    order: 2;
+}
+.pink-cup img{
+    width: 100%;
+}
+.graphic-photography{
+    display: flex;
+    flex-direction: column;
+}
+.graphic, .photography{
+    background: url('./images/mobile/image-graphic-design.jpg');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+   
+}
+.graphic p, .photography p{
+    padding: 0 20px;
+    margin-bottom: 30px;
+
+}
+.photography{
+    background: url('./images/mobile/image-photography.jpg');
+    background-size: cover;
+}
+.testimonials{
+    height: 1800px;
+    padding-top: 400px;
+}
+.client-testimonials{
+    display: flex;
+    flex-direction: column;
+}
+.emily p, .thomas p, .jennie p{
+    padding: 20px;
+}
+.picture-array{
+    flex-direction: column;
+}
+.menu{
+    display: block;
+    background-color: white;
+    width: 81%;
+    height: 230px;
+    position: absolute;
+    top: 120px;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    transition: .3s background ease-in;
+}
+.menu ul{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.menu li{
+    margin-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu-btn{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(251, 210, 6);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 30px solid white;
+    z-index: 100;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    
+}
